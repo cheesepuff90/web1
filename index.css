@@ -3,6 +3,10 @@
 li{
     list-style-type: none;
 }
+
+img{
+    width: 100%;
+}
 .img{background-color: black; height: 300px}
 
 .img >div{
@@ -10,7 +14,6 @@ li{
     padding: 50px 0; margin: 0 auto;}
 
 .img > div img{
-    width: 100%;
     border-radius: 50%;
 }
 
@@ -43,6 +46,19 @@ li{
 .likes h2{
     margin-bottom: 50px;
     font-size: 32px;
+}
+
+.likes li{
+    float: left;
+    margin: 0 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.likes ul:after{
+    display: block;
+    content: '';
+    clear: both;
 }
 
 .likes span{
