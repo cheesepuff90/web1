@@ -1,0 +1,50 @@
+*{padding: 0; margin: 0;}
+
+li{
+    list-style-type: none;
+}
+.img{background-color: black; height: 300px}
+
+.img >div{
+    width: 200px; height: 200px; 
+    padding: 50px 0; margin: 0 auto;}
+
+.img > div img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.info{
+    text-align: center;
+    margin: 50px auto;
+    width: 220px;
+}
+
+.info h1{
+    margin-bottom:L 50px;
+}
+
+.info li{
+    font-size: 15px;
+    text-align: left;
+    background: url("flag.png") no-repeat;
+    background-size: 30px auto;
+    padding-left: 40px;
+    margin: 10px 0;
+}
+
+.likes{
+    background-color: #ddd;
+    padding: 100px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.likes h2{
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.likes span{
+    display: block;
+}
